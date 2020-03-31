@@ -1,0 +1,21 @@
+.Bi {
+  margin: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+.cBi {
+  border: .5px solid #2222;
+  border-radius: 0.25rem;
+}
+.nBi{
+    margin-bottom: 0;
+    text-align: right;
+    width: 100%;
+}
+.dBi{
+  margin-top: 1rem;
+}
+.pBi{
+  margin-bottom: 0;
+  text-align: left;
+}

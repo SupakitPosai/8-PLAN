@@ -1,0 +1,12 @@
+.Categories {
+    display: flex;
+    flex-direction: row;
+}
+
+.CategoriesP {
+    background-color: #000;
+    color: #fff;
+    padding: 0 4px;
+    margin-right: 1px;
+    margin-left: 5px;
+}
