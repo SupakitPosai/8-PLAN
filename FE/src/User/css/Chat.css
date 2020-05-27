@@ -1,0 +1,10 @@
+.direct-chat-primary .right>.direct-chat-text {
+    background: #F25C05;
+    border-color: #F25C05;
+    color: #fff;
+    text-align: right;
+}
+
+.direct-chat-primary .right>.direct-chat-text::after, .direct-chat-primary .right>.direct-chat-text::before {
+    border-left-color: #F25C05;
+}

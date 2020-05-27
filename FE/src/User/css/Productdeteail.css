@@ -1,0 +1,118 @@
+.CaroP2 {
+  position: absolute;
+  left: 70%;
+  bottom: 10%;
+  color: #f10c05;
+}
+.CaroP2h1 {
+  display: flex;
+  align-items: baseline;
+}
+.CaroN2 {
+  position: absolute;
+  bottom: 10%;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: monospace;
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  right: 70%;
+}
+.pay {
+  margin-top: 1.5rem;
+}
+.caluitem {
+  width: 70%;
+  display: flex;
+  overflow: auto;
+  margin-left: 15px;
+}
+.nnb {
+  align-self: flex-end;
+}
+.dsfdfdf {
+  width: 100%;
+}
+.gimgdtp::before {
+  content: "";
+  display: block;
+  padding-top: calc(100% / (16 / 10));
+}
+.gimgdtp {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.gimgdtp2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.gimgdtp3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.listimg11 {
+  position: relative;
+}
+.listimg11::before {
+  content: "";
+  display: block;
+  padding-top: calc(100% / (16 / 16));
+}
+.listimg12 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.listimg13 {
+  position: absolute;
+  top: 0;
+  left: 0; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hoverlistimg_q:hover,
+.hoverlistimg_q:active  {
+  border: 2px solid #ff9500;
+}
+.accordion__button{
+  color: #ff9500 !important;
+}
+@media (max-width: 768px) {
+  .price2313e {
+    font-size: 2.5vw !important;
+  }
+  .samdsdasd0 {
+    font-size: 3vw !important;
+  }
+  .CaroN2 {
+    font-size: 3.5vw !important;
+  }
+}
+@media (max-width: 425px) {
+  .caluitem {
+    width: 90%;
+  }
+}

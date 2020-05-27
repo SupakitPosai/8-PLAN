@@ -1,0 +1,154 @@
+.boxtext {
+  width: 40px;
+  height: 30px;
+  background-color: #f25c05;
+}
+
+.htext {
+  position: relative;
+  top: -30px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 3.3rem;
+  font-family: monospace;
+}
+
+.textlast {
+  font-size: 3.3rem;
+  font-family: monospace;
+  position: relative;
+  top: -30px;
+  left: 30px;
+}
+
+.He1 {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Btn1 {
+  margin-right: 1rem;
+  background-color: #f25c05;
+  color: #fff;
+  border: unset;
+}
+.Btn1:active,
+.Btn1:focus,
+.Btn1:hover {
+  outline: none;
+  box-shadow: none !important;
+  background-color: #d57133 !important;
+}
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #ced4da !important;
+}
+.salem {
+  font-size: 1.7vw;
+}
+.ocm {
+  display: none;
+}
+.ocd {
+  display: inline;
+}
+.llyyuy{
+  display: none;
+}
+@media (max-width: 1024px) {
+  /* .widthtextline {
+    width: 50% !important;
+  } */
+  .qqqweem {
+    display: inline;
+  }
+  .llyyuy{
+    display: none ;
+  }
+}
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  /* .widthtextline {
+    width: 60% !important;
+  } */
+  .promom {
+    left: 60% !important;
+  }
+  .detailcard {
+    font-size: 0.8rem;
+  }
+  .detailcardRow {
+    font-size: smaller;
+  }
+  .pricecard {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 425px) {
+  .htext {
+    font-size: 7.5vw;
+    top: -20px;
+  }
+
+  .textlast {
+    font-size: 7.5vw;
+    left: 5vw;
+    top: -20px;
+  }
+  .boxtext {
+    width: 30px;
+    height: 20px;
+  }
+  .promom {
+    left: 50% !important;
+    width: 45% !important;
+    top: 30% !important;
+  }
+  /* .widthtextline {
+    width: 90% !important;
+  } */
+  .h1one {
+    font-size: 20vw !important;
+    margin-top: 2rem;
+  }
+  .h2one {
+    font-size: 7vw;
+    margin-bottom: 0;
+    margin-top: 2rem;
+  }
+  .hh1 {
+    top: 30% !important;
+  }
+  .ocm {
+    display: inline;
+  }
+  .ocd {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .h1one {
+    margin-top: 1rem;
+  }
+  .ribbontext {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 360px) {
+  .ribbontext {
+    font-size: 3.7vw;
+  }
+  .ribcardm {
+    width: 65% !important;
+  }
+}

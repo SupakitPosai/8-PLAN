@@ -1,0 +1,27 @@
+.list-group-item + .list-group-item {
+  border-top-width: thin;
+}
+.list-group-item:first-child {
+  margin-top: 2rem;
+}
+.datechatroom {
+  margin-bottom: 0;
+  font-size: 0.75rem;
+}
+.tdee {
+  border: 1px solid #ced4da;
+  font-family: RSU_Regular;
+}
+.depro {
+  /* width: 100%;*/
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.sidebar-mini .nav-sidebar,
+.sidebar-mini .nav-sidebar .nav-link,
+.sidebar-mini .nav-sidebar > .nav-header {
+  color: #fff;
+  font-size: 18px;
+}

@@ -1,0 +1,9 @@
+@media (max-width: 425px) {
+  .logofooter {
+      width: 100% !important;
+      margin: 15px !important;
+  }
+  .navfooter{
+      margin: 0 15px !important;
+  }
+}
